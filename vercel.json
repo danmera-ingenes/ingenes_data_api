@@ -3,14 +3,14 @@
   "name": "Ingenes Data API",
   "builds": [
     {
-      "src": "src/index.js",
-      "use": "@now/node-server"
+      "src": "index.js",
+      "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     }
   ]
 }
